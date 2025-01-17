@@ -1,0 +1,501 @@
+    .page1bg {
+      background-image: url(images/phonebgimg.jpg);
+      padding-top: 100px;
+      padding-bottom: 100px;
+      background-position: 55%;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .pg1navend {
+      justify-content: flex-end;
+    }
+
+    .cardbgcolor {
+      background: rgb(1, 73, 238);
+      background: linear-gradient(135deg, rgba(1, 73, 238, 1) 77%, rgba(191, 11, 203, 1) 77%);
+    }
+
+    .getstartbtn {
+      color: black;
+      background-color: #f7d9c4;
+      border-color: #f7d9c4;
+    }
+
+    .icon-link:hover {
+      background-color: white;
+    }
+
+    .icon-link2 {
+      background-color: #888B90;
+      color: black;
+    }
+
+    .icon-link2:hover {
+      background-color: black;
+      color: white;
+    }
+
+
+    .page3getstart1 {
+      background-color: #b2d5de;
+      color: #368BC1;
+    }
+
+    .page3getstart {
+      background-color: white;
+      color: a8a9ad;
+    }
+
+    .page3getstart:hover {
+      background-color: #c5cdcf;
+    }
+
+    .page3getstart1:hover {
+      background-color: #77aab7;
+      color: white;
+    }
+
+    .page3getstart1:active {
+      background-color: #b9ad41;
+      color: black;
+    }
+
+    .arrowicon {
+      width: 50px;
+      height: 50px;
+      border-radius: 100%;
+      background-color: #FF8674;
+    }
+
+    .page4bg {
+      background-color: #dce8eb;
+      border-color: #dce8eb;
+      padding: 20px;
+    }
+
+    .subcribenowchange {
+      background-color: black;
+      color: white;
+    }
+
+    .textfb {
+      color: black;
+    }
+
+    .subcribenowchange:hover {
+      background-color: #FF8674;
+      color: black;
+    }
+
+    .icon::before {
+      content: "\e98d";
+    }
+
+    .pg5border {
+      border-radius: 0;
+    }
+
+    .palleteicon {
+      width: 100px;
+      height: 100px;
+      border-radius: 100%;
+      background-color: #CFECEC;
+    }
+
+    /* .palleteicon:hover{
+  background-color: #f7d9c4;
+} */
+    .palleteicon1 {
+      border: 1px solid #CFECEC;
+    }
+
+    .palleteicon1:hover .palleteicon {
+      /* border:0; */
+      background-color: #f7d9c4;
+
+    }
+
+    .page6hover:hover {
+      background-color: #FFDAB9;
+      border-width: 0;
+    }
+
+    .facebookbg {
+      background-color: #888B90;
+      color: black;
+    }
+
+    .facebookcon :hover {
+      background-color: #FF8674;
+      color: white;
+    }
+
+    .positionabsolute {
+      position: absolute;
+      bottom: -10px;
+      right: -15px;
+    }
+
+    .iconborder {
+      border: 1px solid white;
+      background-color: black;
+    }
+
+    .iconborder:hover {
+      background-color: pink;
+    }
+
+    .contactfinal {
+      background-color: pink;
+    }
+
+    .contactfinal:hover {
+      background-color: white;
+    }
+
+    .swipeup :hover {
+      position: relative;
+      animation: swipe 1s;
+
+    }
+
+    @keyframes swipe {
+      25% {
+        top: -50%;
+        animation-timing-function: ease-in-out;
+      }
+
+      50% {
+        top: 0%;
+        animation-timing-function: ease-in-out;
+      }
+
+      100% {
+        top: 50%;
+        animation-timing-function: ease-in-out;
+      }
+    }
+
+    .getintouch {
+      border-color: white;
+    }
+
+    .backgroundimg {
+      background-image: url("https://mobirise.com/extensions/warem4/mobile-app/assets/images/background3.jpg");
+      height: 300px;
+      width: 100%;
+      background-size: cover;
+    }
+
+    .backgroundimg2 {
+      background-image: url("https://mobirise.com/extensions/softwarem4/mobile-app/assets/images/features2.jpg");
+      height: 300px;
+      width: 100%;
+      background-size: cover;
+
+    }
+
+    .backgroundimg1 {
+      background-image: url("https://mobirise.com/extensions/softwarem4/mobile-app/assets/images/features3.jpg");
+      height: 300px;
+      width: 100%;
+      background-size: cover;
+
+    }
+
+    .accordion-button::after {
+      display: none;
+    }
+
+    .accordion-button:not(.collapsed) i {
+      transform: rotate(45deg);
+    }
+
+    .accordion-button.collapsed i {
+      transform: rotate(0deg);
+    }
+
+
+    @media screen and (max-width:768px) {
+      .finalborder {
+        border: 0;
+      }
+
+      .paddingget {
+        text-align: center;
+        justify-content: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+      }
+
+      .backgroundimg2 {
+        margin-top: 10px;
+      }
+
+      .textalignfinal {
+        text-align: center;
+      }
+
+      .basictextcenter1 {
+        text-align: center;
+        padding-top: 10px;
+      }
+
+      .fs {
+        font-size: 50px;
+      }
+
+      .containerhid {
+        margin-top: 600px;
+        margin-left: 140px;
+        margin-right: 140px;
+        padding-bottom: 50px;
+      }
+
+      .start-17 {
+        margin-top: 650px;
+        left: 1px;
+      }
+
+      .palleteicon1 {
+        text-align: center;
+        margin: 10px;
+        justify-content: center;
+      }
+
+      .palleteicon {
+        justify-content: center;
+      }
+
+      .centeralign {
+        text-align: center;
+      }
+
+      .justifyfinal {
+        justify-content: center;
+      }
+
+      .textpage1 {
+        text-align: center;
+      }
+
+      .personimgpad {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        text-align: center;
+        padding-left: 40px;
+      }
+
+      .personimgpad li {
+        text-align: start;
+      }
+
+      .personsysimg {
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 15%;
+      }
+    }
+
+    @media screen and (min-width:768px) and (max-width:992px) {
+      .textpage1 {
+        text-align: start;
+      }
+
+      .finalborder {
+        border: 0;
+      }
+
+      .paddingget {
+        padding-left: 200px;
+        padding-right: 200px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+
+      .justifyfinal {
+        justify-content: start;
+      }
+
+      .basictextcenter1 {
+        padding-top: 30px;
+      }
+
+      .backgroundimg2 {
+        margin-top: 10px;
+      }
+
+      .personsysimg {
+        justify-content: center;
+        width: 648px;
+      }
+
+      .palleteicon1 {
+        margin-top: 10px;
+      }
+
+      .fs {
+        font-size: 50px;
+      }
+
+      .personimgpad {
+        justify-content: center;
+        padding: 30px;
+        text-align: start;
+      }
+
+      .containerhid {
+        margin-top: 30px;
+        margin-left: 30px;
+        margin-right: 30px;
+        padding: 50px;
+      }
+
+      .start-17 {
+        margin-top: 20px;
+        left: 145px;
+
+      }
+
+      .palleteicon2 {
+        justify-content: start;
+      }
+    }
+
+    @media screen and (min-width:992px) and (max-width:1200px) {
+      .textpage1 {
+        text-align: start;
+      }
+
+      .finalborder {
+        border: 1px solid white;
+      }
+
+      .justifyfinal {
+        justify-content: start;
+      }
+
+      .personsysimg {
+        position: relative;
+        left: 70px;
+        top: 45px;
+        padding: 20px;
+      }
+
+      .fs {
+        font-size: 90px;
+      }
+
+      .fsarrow1 {
+        padding-right: 150px;
+      }
+
+      .textalignfinal {
+        text-align: start;
+      }
+
+      .personimgpad {
+        padding-left: 60px;
+        padding-right: 40px;
+        padding-top: 75px;
+        padding-bottom: 75px;
+      }
+
+      .containerhid {
+        margin-top: 30px;
+        margin-left: 30px;
+        margin-right: 30px;
+        padding: 50px;
+      }
+
+      .start-17 {
+        margin-top: 38px;
+        left: 175px;
+
+      }
+
+      .palleteicon2 {
+        justify-content: start;
+      }
+    }
+
+    @media screen and (min-width:1200px) {
+      .personsysimg {
+        height: 350px;
+        position: relative;
+        left: 190px;
+        top: 45px;
+
+      }
+
+      .finalborder {
+        border: 1px solid white;
+      }
+
+      .personimgpad {
+        padding-top: 50px;
+        padding-bottom: 80px;
+        padding-left: 150px;
+        padding-right: 50px;
+
+      }
+
+      .palleteicon2 {
+        justify-content: start;
+      }
+
+      .containerhid {
+        margin-top: 30px;
+        margin-left: 30px;
+        margin-right: 30px;
+        padding: 100px;
+      }
+
+      .start-17 {
+        margin-top: -30px;
+        left: 210px;
+      }
+
+      .paddingget {
+        justify-content: center;
+        align-items: center;
+      }
+
+      .textalignfinal {
+        padding-left: 100px;
+      }
+    }
+
+    .fsarrow {
+      font-size: 50px;
+    }
+
+    .fsarrow1 {
+      font-size: 60px;
+    }
+
+    .textdecfinal {
+      color: white;
+      text-decoration: none;
+
+    }
+
+    .textdecfinal:hover {
+      text-decoration-line: underline;
+    }
+
+    .shadowwidth::before {
+      position: absolute;
+      width: 92%;
+      height: 20px;
+      background-color: #979ea2;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+      content: "  ";
+      bottom: -20px;
+      z-index: 0;
+    }
+  
